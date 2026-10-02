@@ -10,7 +10,7 @@ This repository contains the MATLAB programs for calibration and real-time contr
 
 ## Required components and downloads
 
-* **2× ExG Pill by Upside Down Labs**. These are instrumentation amplifiers with custom RC filters and gain settings designed for measuring small electrical signals from the body, such as EMG, ECG, and EEG. In this project, one ExG Pill measures the flexor muscle signal and the other measures the extensor muscle signal.
+* **2× ExG Pill by Upside Down Labs**. I used the ExG Pill because it is designed specifically for biopotential signals and already provides the high input impedance, differential amplification, gain, and filtering needed for reliable EMG acquisition. In this project, one ExG Pill measures the flexor muscle signal and the other measures the extensor muscle signal.
 
 * **2× Arduino/Raspberry Pi (etc.) boards**. One board is used for EMG signal acquisition and transmission to the computer. The second board receives movement commands from MATLAB and controls the servo motor of the bionic hand.
 
